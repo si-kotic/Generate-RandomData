@@ -4,7 +4,7 @@ This powershell function will generate many files containing random data for tes
 
 ## Pre-requisites
 
-**NameIT** - A PowerShell Module available from the PowerShellGallery (PSGallery).  It can be installed using `Install-Module -Name NameIT`.  Alternatively the script will cheque for the presence of this module and install it.
+**NameIT** - A PowerShell Module available from the PowerShellGallery (PSGallery).  It can be installed using `Install-Module -Name NameIT`.  Alternatively the script will check for the presence of this module and install it.
 
 **PowerShell 5.0** - PSGallery is only avaialble on PowerShell 5.0 (at least out of the box) so this is a requirement to run the script.
 
