@@ -4,7 +4,7 @@ This powershell function will generate many files containing random data for tes
 
 ## Pre-requisites
 
-**NameIT** - A PowerShell Module available from the PowerShellGallery (PSGallery).\
+**NameIT** - A PowerShell Module available from the PowerShellGallery (PSGallery).
 It can be installed using `Install-Module -Name NameIT`.  Alternatively the script will cheque for the presence of this module and install it.
 
 **PowerShell 5.0** - PSGallery is only avaialble on PowerShell 5.0 (at least out of the box) so this is a requirement to run the script.
@@ -19,21 +19,21 @@ To call the function use `Generate-RandomData -Path c:\path\to\template.xml -Num
 
 There are various functions you can use within a template in order to generate different types of data.
 
-For example:\
-The `?` and `#` characters will be replaced with alphabetic and numeric characters respectively.\
-`[person]` will be replaced with a random name.\
+For example:
+The `?` and `#` characters will be replaced with alphabetic and numeric characters respectively.
+`[person]` will be replaced with a random name.
 `[person female first]` will be replaced with a random first name for a woman.
 `[address]` will be replaced with the first line of an address in the US format.
 
-A full list of template functions can be found on the developers github page:\
+A full list of template functions can be found on the developers github page:
 https://github.com/dfinke/NameIT
 
-I have also added two custom datasets that you won't find detailed on the developers page:\
-`[city]` will be replaced with the name of a random City.\
+I have also added two custom datasets that you won't find detailed on the developers page:
+`[city]` will be replaced with the name of a random City.
 `[country]` will be replaced with the name of a random Country.
 
-You can also mix and match, for example:\
-`[address], [city], [country][space]??##[space]#??`\
+You can also mix and match, for example:
+`[address], [city], [country][space]??##[space]#??`
 By using spaces and single characters/numbers at the end I have recreated the format of a UK postcode.
 
 ## Example Template
