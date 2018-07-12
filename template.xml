@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Globus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Language>[numeric]</Language>
+  <TxnDesc>Mail to heirs</TxnDesc>
+  <CustomerNo>######</CustomerNo>
+  <CustomerAddress>
+    <Address>
+    </Address>
+    <Street>[address]</Street>
+    <PostCode>??## #??</PostCode>
+    <TownCountry>[city]</TownCountry>
+    <Country>[country]</Country>
+  </CustomerAddress>
+  <ValueDate>[randomdate]</ValueDate>
+  <CustomerName>
+    <FamilyName>[person both last]</FamilyName>
+    <GivenName>[person both first]</GivenName>
+  </CustomerName>
+  <AccountRIB>###########</AccountRIB>
+  <Title>
+  </Title>
+  <DAOName>[president]</DAOName>
+</Globus>
